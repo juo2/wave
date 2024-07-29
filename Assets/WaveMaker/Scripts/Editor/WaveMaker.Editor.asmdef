@@ -1,0 +1,34 @@
+{
+    "name": "WaveMaker.Editor",
+    "references": [
+        "WaveMaker",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.burst",
+            "expression": "1.2.0-preview.9",
+            "define": "BURST_INSTALLED"
+        },
+        {
+            "name": "com.unity.mathematics",
+            "expression": "1.1.0",
+            "define": "MATHEMATICS_INSTALLED"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "0.2.0-preview.13",
+            "define": "COLLECTIONS_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}
